@@ -174,7 +174,7 @@ namespace ConnectVpn
             cmd.StartInfo.RedirectStandardOutput = true;
             cmd.StartInfo.RedirectStandardInput = false;
             cmd.StartInfo.CreateNoWindow = true;
-            cmd.StartInfo.Arguments = argument + this.connectName;  //コマンドラインを指定
+            cmd.StartInfo.Arguments = $"{argument} \"{this.connectName}\"";  //コマンドラインを指定
             cmd.Start();
 
             //プロセス終了まで待機する

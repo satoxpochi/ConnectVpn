@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="negima.ico" />
-    <Content Include="ouchi.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
